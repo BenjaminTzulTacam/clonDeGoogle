@@ -15,7 +15,7 @@ header{
 }
 header nav {
     display: flex;
-    justify-content: flex-end; //justificar el contenido 
+    justify-content: flex-end; /*justificar el contenido*/ 
 }
 header nav .nav-right-section{
 width: 250px;
@@ -54,4 +54,24 @@ main .main-logo {
 }
 main .main-logo img {
     width: 300px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px; /*separa nuestros botones del input*/ 
+}
+main .main-input-container {/*Este es el contenedorde los dos incones y el input*/
+ width: 525px;
+ border-radius: 100px;
+ border: 1px solid #dfe1e5;
+ display: flex;/*Nos ayuda a posicionar el contenido*/
+ justify-content: center;
+ align-items: center; /*Alinea los elementes al centro*/
+} 
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;/*quita el border obscuro*/
+    outline: none; /*quita el border azul*/
+
 }
