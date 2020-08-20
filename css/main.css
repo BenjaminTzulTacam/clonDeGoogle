@@ -73,6 +73,7 @@ main .main-input input{
     height: 40px;
     border: none;/*quita el border obscuro*/
     outline: none; /*quita el border azul*/
+    font-size: 18px;
 
 }
 
@@ -98,4 +99,29 @@ main .main-input .micro-icon {
     width: 18px;
     height: 18px;
     cursor: pointer;
+}
+main .main-butons { /*Este es el contededor proincipal de nuestros botones*/
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-butons div {
+    display: inline-block;
+}
+
+main .main-butons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px; /*Es el espacio interno que tiene los elementos con su contenedor padre 0 arriba y abajo y 15 de los dos lados*/
+    margin-right: 15px;
+}
+
+main .main-butons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222222;
 }
